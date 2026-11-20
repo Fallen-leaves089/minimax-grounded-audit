@@ -18,7 +18,7 @@ class ContractTests(unittest.TestCase):
     def test_manifest_identity(self) -> None:
         self.assertEqual(MANIFEST["name"], "project-health-audit")
         self.assertEqual(MANIFEST["package_name"], "minimax-grounded-audit")
-        self.assertEqual(MANIFEST["version"], "0.1.0")
+        self.assertEqual(MANIFEST["version"], "0.1.1")
         self.assertEqual(MANIFEST["license"], "Apache-2.0")
         self.assertEqual(MANIFEST["first_host"], "minimax-code")
         self.assertEqual(MANIFEST["supported_hosts"], ["minimax-code"])
@@ -33,7 +33,7 @@ class ContractTests(unittest.TestCase):
         self.assertEqual(lines[0].strip(), "---")
         self.assertIn("name: project-health-audit", lines)
         self.assertIn("license: Apache-2.0", lines)
-        self.assertIn('  version: "0.1.0"', lines)
+        self.assertIn('  version: "0.1.1"', lines)
         frontmatter = text.split("---", 2)[1]
         self.assertNotIn("allowedTools", frontmatter)
         self.assertNotIn("allowed-tools", frontmatter)

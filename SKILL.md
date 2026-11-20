@@ -3,7 +3,7 @@ name: project-health-audit
 description: 面向已有软件项目的证据审计与交付验收，专为 MiniMax Code 与 MiniMax M2.5/M3 的架构规划冲动、速度偏好、长上下文漂移和多模态误判设计；默认只读、证据优先、真实回归、P0-P3、失败关闭，并把核实过的新失败机制写到技能目录之外。
 license: Apache-2.0
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   stage: single-host-minimax-code
   memory-format: six-field-markdown
   short-description: "证据优先的项目健康审计"
