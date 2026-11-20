@@ -3,3 +3,7 @@ Copyright 2026 minimax-grounded-audit contributors
 
 This product includes software and documentation adapted from the
 grounded-audit lineage. See the repository history and LICENSE for details.
+
+This repository is part of the grounded-audit ecosystem and is related to the project-health main project.
+The main project is noncommercial under the PolyForm Noncommercial License 1.0.0.
+This repository is separately open source under Apache-2.0; that license does not change the main project's license.

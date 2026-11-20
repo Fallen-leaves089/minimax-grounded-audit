@@ -58,7 +58,14 @@ SKIP_DIRS = {
 }
 SECRET_SCAN_SKIP = {"scripts/verify_package.py"}
 
-FORBIDDEN_LICENSE = ("Poly" + "Form", "Non" + "commercial")
+FORBIDDEN_LICENSE = (
+    "## Acceptance",
+    "## Distribution License",
+    "## Noncommercial Purposes",
+    "## Personal Uses",
+    "## Noncommercial Organizations",
+    "The licensor grants you a copyright license",
+)
 FORBIDDEN_PATHS = (
     "windows-" + "pitfalls",
     "macos-" + "pitfalls",

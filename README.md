@@ -149,8 +149,18 @@ python -B -m unittest discover -s tests -p "test_*.py"
 
 ## 反馈
 
-问题、误报、模型行为差异和宿主版本变化，请发到 [GitHub Issues](https://github.com/Fallen-leaves089/minimax-grounded-audit/issues) 或邮箱 `chenshuidelaye@qq.com`。反馈时请附上 MiniMax Code 版本、模型版本、权限模式、命令与退出状态；不要附密钥、会话原文或个人路径。
+遇到问题可以直接反馈，不需要准备完整复现或日志。请说明：
+
+- 你遇到的问题；
+- 使用的模型；
+- 使用的壳/宿主（例如你实际使用的客户端、CLI 或 Agent 宿主）。
+
+发送到 [GitHub Issues](https://github.com/Fallen-leaves089/minimax-grounded-audit/issues) 或 `chenshuidelaye@qq.com`。不要发送密钥、令牌、客户数据或个人路径。
 
 ## 许可
+
+> **主项目许可边界**：本仓库是 `grounded-audit` 生态中与主项目 `project-health` 关联的专项技能。
+> 主项目按 **PolyForm Noncommercial License 1.0.0** 发布，仅限非商业用途；商业使用需取得主项目作者书面授权。
+> 本仓库按 **Apache License 2.0** 完全开源，允许商业使用、修改和分发；两者分别授权，Apache-2.0 不改变主项目的非商业许可。
 
 [Apache-2.0](LICENSE)。允许商业使用；请保留 NOTICE 和许可证文本。

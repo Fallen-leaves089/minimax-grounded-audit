@@ -149,8 +149,18 @@ python -B -m unittest discover -s tests -p "test_*.py"
 
 ## Feedback
 
-Report bugs, false positives, model behavior differences, and host version changes through [GitHub Issues](https://github.com/Fallen-leaves089/minimax-grounded-audit/issues) or `chenshuidelaye@qq.com`. Include the MiniMax Code version, model version, permission mode, command, and exit status. Do not include credentials, raw sessions, or personal paths.
+You can report a problem directly; a full reproduction or logs are not required. Please tell us:
+
+- The problem you encountered;
+- The model you used;
+- The shell/host you used (for example, the client, CLI, or agent host you actually used).
+
+Send it through [GitHub Issues](https://github.com/Fallen-leaves089/minimax-grounded-audit/issues) or `chenshuidelaye@qq.com`. Do not send secrets, tokens, customer data, or personal paths.
 
 ## License
+
+> **Main-project license boundary**: This repository is a host/model-specific skill in the `grounded-audit` ecosystem and is related to the `project-health` main project.
+> The main project uses the **PolyForm Noncommercial License 1.0.0** and is noncommercial only; commercial use requires separate written permission from its author.
+> This repository is fully open source under **Apache License 2.0**; commercial use, modification, and distribution are permitted. The two are licensed separately, and Apache-2.0 does not change the main project's noncommercial license.
 
 [Apache-2.0](LICENSE). Commercial use is allowed; retain the NOTICE and license text.
