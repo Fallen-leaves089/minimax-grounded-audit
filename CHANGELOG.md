@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- 调整报告输出密度：P0/P1 完整展开，P2 一行问题加一句影响/建议，P3 默认一行。
+
 ## 0.1.1 - 2026-11-20
 
 - Clarify the Apache-2.0 ecosystem skill license boundary and the related main project's noncommercial status.
